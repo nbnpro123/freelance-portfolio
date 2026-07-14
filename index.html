@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Тимофей Прохорович — Python-разработчик. Telegram-боты, парсинг, AI-агенты, автоматизация бизнеса под ключ.">
+  <meta name="keywords" content="Python разработчик, Telegram бот, парсинг, AI агент, автоматизация, фрилансер, Django, FastAPI">
+  <meta name="author" content="Тимофей Прохорович">
+  <title>Тимофей Прохорович — Python-разработчик | Telegram-боты, AI, автоматизация</title>
+
+  <!-- Bootstrap 5 CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#hero">TP</a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">Обо мне</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Услуги</a></li>
+          <li class="nav-item"><a class="nav-link" href="#portfolio">Кейсы</a></li>
+          <li class="nav-item"><a class="nav-link" href="#process">Процесс</a></li>
+          <li class="nav-item"><a class="nav-link" href="#reviews">Отзывы</a></li>
+          <li class="nav-item"><a class="nav-link btn btn-outline-light ms-lg-3 px-3 py-2" href="#contacts">Связаться</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <section id="hero" class="hero-section">
+    <div class="container">
+      <div class="row align-items-center min-vh-100">
+        <div class="col-lg-8 mx-auto text-center">
+          <span class="badge bg-primary bg-opacity-10 text-primary mb-3 px-3 py-2">Python-разработчик</span>
+          <h1 class="hero-title fw-800 mb-3">Автоматизирую бизнес<br>с помощью <span class="gradient-text">Python и AI</span></h1>
+          <p class="hero-subtitle fs-5 mb-4 text-secondary">
+            Разрабатываю Telegram-ботов, парсеры, AI-агентов и API для бизнеса.
+            Сокращаю ручной труд, ускоряю процессы и экономлю ваши деньги.
+          </p>
+          <div class="d-flex justify-content-center gap-3 flex-wrap">
+            <a href="#services" class="btn btn-primary btn-lg px-4 py-3 fw-semibold">
+              <i class="bi bi-grid me-2"></i>Посмотреть услуги
+            </a>
+            <a href="#contacts" class="btn btn-outline-light btn-lg px-4 py-3 fw-semibold">
+              <i class="bi bi-telegram me-2"></i>Связаться
+            </a>
+          </div>
+          <div class="mt-5">
+            <div class="d-flex justify-content-center gap-4 text-muted small">
+              <span><i class="bi bi-check-circle-fill text-success me-1"></i> 2+ года опыта</span>
+              <span><i class="bi bi-check-circle-fill text-success me-1"></i> 10+ проектов</span>
+              <span><i class="bi bi-check-circle-fill text-success me-1"></i> Гарантия 1 месяц</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-bg-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section id="about" class="section-padding">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-5 text-center text-lg-start fade-in-left">
+          <div class="about-avatar mx-auto mx-lg-0">
+            <div class="avatar-circle">
+              <i class="bi bi-person-fill"></i>
+            </div>
+          </div>
+          <h2 class="fw-800 mt-3">Тимофей Прохорович</h2>
+          <p class="text-primary fw-semibold">Python-разработчик</p>
+          <div class="d-flex justify-content-center justify-content-lg-start gap-3 mt-3">
+            <a href="https://t.me/timofeyProh" class="btn btn-outline-primary btn-sm" target="_blank"><i class="bi bi-telegram me-1"></i> Telegram</a>
+            <a href="https://github.com/nbnpro123" class="btn btn-outline-dark btn-sm" target="_blank"><i class="bi bi-github me-1"></i> GitHub</a>
+          </div>
+        </div>
+        <div class="col-lg-7 fade-in-right">
+          <p class="lead fw-medium mb-3">Привет. Меня зовут Тимофей, я Python-разработчик и ваш личный инженер по автоматизации.</p>
+          <p>Я не просто пишу код. Я решаю задачи бизнеса: освобождаю владельцев от рутины, сокращаю расходы на администраторов и помогаю зарабатывать больше с помощью технологий.</p>
+          <p>Я в одиночку разработал и запустил высоконагруженного Telegram-бота для зарубежного заказчика. Это не студенческая поделка: бот работает с базой <strong>50 000+ аккаунтов</strong>, использует нейросеть DeepSeek для умных ответов, автоматически обходит блокировки через ротацию прокси и умеет самостоятельно снимать баны. И он приносит деньги.</p>
+          </p>
+          <div class="row mt-4 g-3">
+            <div class="col-sm-4">
+              <div class="stat-card">
+                <span class="stat-number">2+</span>
+                <span class="stat-label">года опыта</span>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="stat-card">
+                <span class="stat-number">10+</span>
+                <span class="stat-label">проектов</span>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="stat-card">
+                <span class="stat-number">50k+</span>
+                <span class="stat-label">аккаунтов под нагрузкой</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== TECH STACK ========== -->
+  <section id="stack" class="section-padding bg-light">
+    <div class="container">
+      <h2 class="section-title text-center mb-5 fade-in">Технологии</h2>
+      <div class="row g-3 justify-content-center">
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="tech-card">Python</div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="tech-card">Aiogram</div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="tech-card">Django / DRF</div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="tech-card">FastAPI</div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="tech-card">OpenAI / DeepSeek</div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="tech-card">Docker</div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="tech-card">PostgreSQL</div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="tech-card">Redis</div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="tech-card">Git</div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="tech-card">BeautifulSoup</div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="tech-card">Selenium</div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="tech-card">Nginx</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SERVICES ========== -->
+  <section id="services" class="section-padding">
+    <div class="container">
+      <div class="text-center mb-5 fade-in">
+        <h2 class="section-title">Услуги и цены</h2>
+        <p class="text-secondary fs-5">Специализируюсь на трёх направлениях, в которых у меня максимальная экспертиза</p>
+      </div>
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6 scale-in">
+          <div class="service-card">
+            <div class="service-icon"><i class="bi bi-robot"></i></div>
+            <h3 class="fw-700">Telegram-боты и AI-агенты</h3>
+            <p>Боты для обработки заявок, консультаций, уведомлений. Интеграция с ChatGPT, OpenAI, DeepSeek. Боты с памятью и обучением на ваших данных.</p>
+            <ul class="service-features">
+              <li><i class="bi bi-check-lg"></i> Мультиаккаунтинг</li>
+              <li><i class="bi bi-check-lg"></i> Админ-панель</li>
+              <li><i class="bi bi-check-lg"></i> Интеграция с CRM</li>
+              <li><i class="bi bi-check-lg"></i> Авторазбан и прокси</li>
+            </ul>
+            <div class="service-price">от 15 000 ₽</div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 scale-in">
+          <div class="service-card">
+            <div class="service-icon"><i class="bi bi-database"></i></div>
+            <h3 class="fw-700">Парсинг и сбор данных</h3>
+            <p>Сбор данных с сайтов, маркетплейсов, карт, каталогов. Мониторинг цен конкурентов, товаров, акций. Выгрузка в Excel, Google Sheets, CRM, базу данных.</p>
+            <ul class="service-features">
+              <li><i class="bi bi-check-lg"></i> Мониторинг цен</li>
+              <li><i class="bi bi-check-lg"></i> Сбор баз данных</li>
+              <li><i class="bi bi-check-lg"></i> Выгрузка в Excel / БД</li>
+              <li><i class="bi bi-check-lg"></i> Автообновление</li>
+            </ul>
+            <div class="service-price">от 10 000 ₽</div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 scale-in">
+          <div class="service-card">
+            <div class="service-icon"><i class="bi bi-gear-wide-connected"></i></div>
+            <h3 class="fw-700">Автоматизация бизнес-процессов</h3>
+            <p>Перенос данных, скрипты для убирания ручного труда. Интеграция нейросетей в существующие продукты. Backend и API на Django / FastAPI.</p>
+            <ul class="service-features">
+              <li><i class="bi bi-check-lg"></i> REST API на Django / FastAPI</li>
+              <li><i class="bi bi-check-lg"></i> Интеграция ИИ</li>
+              <li><i class="bi bi-check-lg"></i> Деплой и CI/CD</li>
+              <li><i class="bi bi-check-lg"></i> Доработка существующих ботов</li>
+            </ul>
+            <div class="service-price">от 8 000 ₽</div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-4">
+        <p class="text-muted small">Цены указаны ориентировочно. Итоговая стоимость зависит от сложности и объёма проекта.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PORTFOLIO ========== -->
+  <section id="portfolio" class="section-padding bg-dark text-white">
+    <div class="container">
+      <div class="text-center mb-5 fade-in">
+        <h2 class="section-title text-white">Кейсы</h2>
+        <p class="text-white-50 fs-5">Реальные проекты с измеримыми результатами</p>
+      </div>
+
+      <div class="row g-4">
+        <!-- Case 1 -->
+        <div class="col-lg-4 col-md-6 scale-in">
+          <div class="case-card">
+            <div class="case-header">
+              <span class="case-tag">Telegram-бот</span>
+              <h3>AI-бот для обработки заявок</h3>
+            </div>
+            <div class="case-body">
+              <div class="case-problem">
+                <strong>Задача:</strong> Клиент получал 50+ заявок в день вручную. Менеджеры тратили 3 часа на обработку.
+              </div>
+              <div class="case-solution">
+                <strong>Решение:</strong> Бот на aiogram + OpenAI API. Определяет тип запроса, приоритет, создаёт задачу в CRM.
+              </div>
+              <div class="case-results">
+                <div class="result-item">
+                  <span class="result-value">1200+</span>
+                  <span class="result-label">запросов за 3 месяца</span>
+                </div>
+                <div class="result-item">
+                  <span class="result-value">-40%</span>
+                  <span class="result-label">нагрузка на менеджеров</span>
+                </div>
+                <div class="result-item">
+                  <span class="result-value">15 → 2 мин</span>
+                  <span class="result-label">время первого ответа</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Case 2 -->
+        <div class="col-lg-4 col-md-6 scale-in">
+          <div class="case-card">
+            <div class="case-header">
+              <span class="case-tag">Парсинг</span>
+              <h3>Парсер для автоматизации закупок</h3>
+            </div>
+            <div class="case-body">
+              <div class="case-problem">
+                <strong>Задача:</strong> Отдел закупок тратил 3 часа в день на ручной сбор тендеров из СБИС.
+              </div>
+              <div class="case-solution">
+                <strong>Решение:</strong> Парсер на Python с фильтрацией по правилам и распределением по задачам в CRM.
+              </div>
+              <div class="case-results">
+                <div class="result-item">
+                  <span class="result-value">-80%</span>
+                  <span class="result-label">ручного труда</span>
+                </div>
+                <div class="result-item">
+                  <span class="result-value">6 мес.</span>
+                  <span class="result-label">окупаемость</span>
+                </div>
+                <div class="result-item">
+                  <span class="result-value">0</span>
+                  <span class="result-label">ошибок операторов</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Case 3 -->
+        <div class="col-lg-4 col-md-6 scale-in">
+          <div class="case-card">
+            <div class="case-header">
+              <span class="case-tag">AI-агент</span>
+              <h3>AI-агент для техподдержки</h3>
+            </div>
+            <div class="case-body">
+              <div class="case-problem">
+                <strong>Задача:</strong> 500+ обращений в месяц, много типовых вопросов, высокая нагрузка на поддержку.
+              </div>
+              <div class="case-solution">
+                <strong>Решение:</strong> Агентный пайплайн с классификацией, RAG-поиском и эскалацией сложных запросов.
+              </div>
+              <div class="case-results">
+                <div class="result-item">
+                  <span class="result-value">-40%</span>
+                  <span class="result-label">нагрузка на поддержку</span>
+                </div>
+                <div class="result-item">
+                  <span class="result-value">80%</span>
+                  <span class="result-label">без участия человека</span>
+                </div>
+                <div class="result-item">
+                  <span class="result-value">15 → 2 мин</span>
+                  <span class="result-label">время ответа</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROCESS ========== -->
+  <section id="process" class="section-padding">
+    <div class="container">
+      <div class="text-center mb-5 fade-in">
+        <h2 class="section-title">Как я работаю</h2>
+        <p class="text-secondary fs-5">Прозрачный процесс от идеи до запуска</p>
+      </div>
+      <div class="row g-4">
+        <div class="col-lg-2 col-md-4 col-6">
+          <div class="process-step">
+            <div class="process-number">1</div>
+            <h4>Знакомство</h4>
+            <p>Вы рассказываете о задаче, я задаю уточняющие вопросы</p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-6">
+          <div class="process-step">
+            <div class="process-number">2</div>
+            <h4>Оценка и план</h4>
+            <p>Предлагаю решение, сроки и стоимость</p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-6">
+          <div class="process-step">
+            <div class="process-number">3</div>
+            <h4>Согласование</h4>
+            <p>Утверждаем ТЗ, подписываем договор</p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-6">
+          <div class="process-step">
+            <div class="process-number">4</div>
+            <h4>Разработка</h4>
+            <p>Пишу код, показываю промежуточные результаты</p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-6">
+          <div class="process-step">
+            <div class="process-number">5</div>
+            <h4>Тестирование</h4>
+            <p>Проверяем, вносим корректировки</p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-6">
+          <div class="process-step">
+            <div class="process-number">6</div>
+            <h4>Сдача и поддержка</h4>
+            <p>Передаю проект, помогаю с запуском</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-5 g-4">
+        <div class="col-md-3 col-6">
+          <div class="guarantee-item">
+            <i class="bi bi-headset"></i>
+            <h5>Всегда на связи</h5>
+            <p>Отвечаю в течение 1–2 часов</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-6">
+          <div class="guarantee-item">
+            <i class="bi bi-calendar-check"></i>
+            <h5>Соблюдаю дедлайны</h5>
+            <p>Предупреждаю заранее</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-6">
+          <div class="guarantee-item">
+            <i class="bi bi-shield-check"></i>
+            <h5>Гарантия 1 месяц</h5>
+            <p>Бесплатные исправления</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-6">
+          <div class="guarantee-item">
+            <i class="bi bi-file-earmark-lock"></i>
+            <h5>Конфиденциальность</h5>
+            <p>Подписываю NDA</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== REVIEWS ========== -->
+  <section id="reviews" class="section-padding bg-light">
+    <div class="container">
+      <div class="text-center mb-5 fade-in">
+        <h2 class="section-title">Отзывы клиентов</h2>
+        <p class="text-secondary fs-5">Что говорят обо мне заказчики</p>
+      </div>
+      <div class="row g-4">
+        <div class="col-lg-6 scale-in">
+          <div class="review-card">
+            <div class="review-stars">
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+            </div>
+            <p class="review-text">Заказал парсер для сбора данных с нескольких маркетплейсов. Тимофей сделал всё быстро, учёл все пожелания по фильтрации и формату выгрузки. Данные теперь собираются автоматически раз в сутки — сэкономил себе 2 часа ручной работы каждый день. Рекомендую.</p>
+            <div class="review-author">
+              <div class="review-avatar">С</div>
+              <div class="review-info">
+                <strong>Сергей К.</strong>
+                <span>Руководитель отдела закупок</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 scale-in">
+          <div class="review-card">
+            <div class="review-stars">
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+            </div>
+            <p class="review-text">Нужен был Telegram-бот для автоматической обработки заявок клиентов. Раньше менеджеры вручную распределяли обращения, теперь бот сам определяет тип запроса и маршрутизирует. За 2 месяца бот обработал больше 800 заявок — команда в восторге.</p>
+            <div class="review-author">
+              <div class="review-avatar">М</div>
+              <div class="review-info">
+                <strong>Мария В.</strong>
+                <span>Владелец интернет-магазина</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 scale-in">
+          <div class="review-card">
+            <div class="review-stars">
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+            </div>
+            <p class="review-text">Обратился к Тимофею с задачей по интеграции AI-агента в нашу систему поддержки. Очень переживал за качество, но результат превзошёл ожидания. Агент разгрузил первую линию поддержки на 40%. Отдельно отмечу документацию — всё расписано, легко разобраться.</p>
+            <div class="review-author">
+              <div class="review-avatar">В</div>
+              <div class="review-info">
+                <strong>Валентин С.</strong>
+                <span>Технический директор SaaS</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 scale-in">
+          <div class="review-card">
+            <div class="review-stars">
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i>
+            </div>
+            <p class="review-text">Заказал доработку существующего Django-проекта. Сделано качественно, код чистый и понятный. Единственный момент — были небольшие задержки на этапе согласования, но в итоге всё сдал в срок. Продолжаю сотрудничать, заказал ещё один проект.</p>
+            <div class="review-author">
+              <div class="review-avatar">А</div>
+              <div class="review-info">
+                <strong>Михаил А.</strong>
+                <span>Основатель стартапа</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACTS ========== -->
+  <section id="contacts" class="section-padding">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <h2 class="section-title mb-3">Готовы автоматизировать рутину?</h2>
+          <p class="fs-5 text-secondary mb-5">Напишите мне, и я предложу решение под вашу задачу</p>
+
+          <div class="row g-4">
+            <div class="col-md-4">
+              <a href="https://t.me/timofeyProh" class="contact-card" target="_blank">
+                <i class="bi bi-telegram"></i>
+                <h5>Telegram</h5>
+                <span>@timofeyProh</span>
+              </a>
+            </div>
+            <div class="col-md-4">
+              <a href="https://github.com/nbnpro123" class="contact-card" target="_blank">
+                <i class="bi bi-github"></i>
+                <h5>GitHub</h5>
+                <span>nbnpro123</span>
+              </a>
+            </div>
+            <div class="col-md-4">
+              <a href="mailto:prohorovict39@gmail.com" class="contact-card">
+                <i class="bi bi-envelope"></i>
+                <h5>Email</h5>
+                <span>prohorovict39@gmail.com</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-phone mt-4">
+            <a href="tel:+375296071657" class="btn btn-outline-primary btn-lg">
+              <i class="bi bi-telephone me-2"></i>+375 29 607 16 57
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 text-center text-md-start">
+          <p class="mb-0">&copy; <span id="year"></span> Тимофей Прохорович. Все права защищены.</p>
+        </div>
+        <div class="col-md-6 text-center text-md-end mt-3 mt-md-0">
+          <a href="https://t.me/timofeyProh" class="footer-link me-3" target="_blank"><i class="bi bi-telegram"></i></a>
+          <a href="https://github.com/nbnpro123" class="footer-link me-3" target="_blank"><i class="bi bi-github"></i></a>
+          <a href="mailto:prohorovict39@gmail.com" class="footer-link"><i class="bi bi-envelope"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
